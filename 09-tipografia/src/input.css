@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family-arial: Arial;
+  --text-12xl: 8rem;
+}
