@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-cidade {
+    background-image: url(../img/cidade.jpg);
+  }
+  .bg-logo {
+    background-image: url(../img/Tailwind_CSS_Logo.png);
+  }
+}
