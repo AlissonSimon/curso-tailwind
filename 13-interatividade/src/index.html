@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Interatividade</title>
+  <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+  <!-- Appearance -->
+  <div class="m-4">
+    <select class="appearance-none">
+      <option value="">Teste</option>
+    </select>
+    <select>
+      <option value="">Teste</option>
+    </select>
+  </div>
+
+  <!-- Cursor -->
+  <div class="h-20 bg-pink-400 cursor-pointer"></div>
+  <div class="h-20 bg-pink-600 cursor-wait"></div>
+  <div class="h-20 bg-pink-700 cursor-not-allowed"></div>
+  <div class="h-20 bg-pink-900 cursor-text"></div>
+
+  <!-- Outline -->
+  <div class="p-6 bg-red-300">
+    <input type="text" placeholder="Clica em mim" class="outline-none bg-white">
+    <input type="text" placeholder="Clica em mim 2" class="bg-white">
+  </div>
+
+  <!-- Pointer-events -->
+  <div class="m-4 bg-gray-300 p-4">
+    <select class="pointer-events-none bg-white">
+      <option value="">Teste Pointers</option>
+    </select>
+    <select class="bg-white">
+      <option value="">Teste Pointers</option>
+    </select>
+    <div class="m-4">
+      <textarea name="" id="" cols="30" rows="10" class="pointer-events-none bg-white"></textarea>
+      <textarea name="" id="" cols="30" rows="10" class="bg-white"></textarea>
+    </div>
+  </div>
+  
+  <!-- Resize -->
+  <div class="bg-emerald-300 m-4 p-4">
+    <textarea name="" id="" cols="30" rows="10" class="bg-white resize-none"></textarea>
+    <textarea name="" id="" cols="30" rows="10" class="bg-white resize-x"></textarea>
+    <textarea name="" id="" cols="30" rows="10" class="bg-white resize-y"></textarea>
+    <textarea name="" id="" cols="30" rows="10" class="bg-white resize-"></textarea>
+  </div>
+
+  <!-- Select -->
+  <div class="bg-amber-300 m-4 p-4">
+    <p class="select-none">Este parágrafo não pode ser selecionado</p>
+  </div>
+</body>
+</html>
