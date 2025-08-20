@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bordas</title>
+  <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+  <!-- Border-radius -->
+  <div>
+    <button class="m-4 p-4 bg-red-400 rounded-sm">Testando menor</button>
+    <button class="m-4 p-4 bg-red-400 rounded">Testando médio</button>
+    <button class="m-4 p-4 bg-red-400 rounded-3xl">Testando maior</button>
+  </div>
+  <div>
+    <span class="bg-green-400 w-20 h-20 block m-4 rounded-full">Circular</span>
+    <span class="bg-green-400 w-40 h-20 block m-4 rounded-full">Pílula</span>
+  </div>
+
+  <!-- Border-width and Border-color -->
+  <div>
+    <span class="bg-amber-600 w-20 h-10 block m-4 text-center text-white border-4 border-blue-800">Botão</span>
+    <span class="bg-amber-600 w-20 h-10 block m-4 text-center text-white border-4 border-blue-800 rounded-lg">Botão</span>
+  </div>
+
+  <!-- Border-opacity and Border-style -->
+  <span class="bg-purple-400 w-20 h-10 block m-4 text-center text-white border-4 border-purple-800/25 rounded-lg">Botão</span>
+  <span class="bg-purple-400 w-20 h-10 block m-4 text-center text-white border-4 border-purple-800/75 rounded-lg">Botão</span>
+  <span class="bg-purple-400 w-20 h-10 block m-4 text-center text-white border-4 border-purple-800 rounded-lg">Botão</span>
+  <span class="bg-teal-400 w-20 h-10 block m-4 text-center text-white border-4 border-teal-800 rounded-lg border-double">Botão</span>
+  <span class="bg-teal-400 w-20 h-10 block m-4 text-center text-white border-4 border-teal-800 rounded-lg border-dashed">Botão</span>
+  <span class="bg-teal-400 w-20 h-10 block m-4 text-center text-white border-4 border-teal-800 rounded-lg border-dotted">Botão</span>
+
+  <!-- Divide -->
+  <div class="grid grid-cols-4 divide-x-4 divide-blue-900 divide-dotted">
+    <div class="text-center">1</div>
+    <div class="text-center">2</div>
+    <div class="text-center">3</div>
+    <div class="text-center">4</div>
+  </div>
+  <div class="divide-y-2 divide-purple-300 divide-washed">
+    <p>Testando Divide</p>
+    <p>Testando Divide</p>
+    <p>Testando Divide</p>
+    <p>Testando Divide</p>
+    <p>Testando Divide</p>
+    <p>Testando Divide</p>
+    <p>Testando Divide</p>
+    <p>Testando Divide</p>
+  </div>
+
+  <!-- Box-shadow -->
+  <div class="w-20 h-20 m-6 shadow-xs">Sombra Pequena</div>
+  <div class="w-20 h-20 m-6 shadow">Sombra Média</div>
+  <div class="w-20 h-20 m-6 shadow-2xl">Sombra Grande</div>
+</body>
+</html>
