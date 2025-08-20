@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-main-blue: #1877F2;
+  --color-main-gray: #F0F2F5;
+  --color-main-blue-hover: #166FE5;
+  --color-main-green: #42B72A;
+  --color-main-green-hover: #36A420;
+  --spacing-30: 7.5rem;
+  --spacing-290px: 290px;
+  --spacing-396px: 396px;
+  --spacing-500px: 500px;
+  --spacing-980px: 960px;
+  --text-subtitle: 1.7rem;
+}
