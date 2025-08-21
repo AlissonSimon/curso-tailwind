@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family: Arial;
+  --spacing-7: 1.75rem;
+  --spacing-75px: 75px;
+  --spacing-210px: 210px;
+  --color-darkblue-500: #485769;
+  --color-darkblue-600: #37475A;
+  --color-darkblue-700: #232F3E;
+  --color-darkblue-900: #191E26;
+  --color-darkblue-950: #131A22;
+  --color-gold-100: #FEBD69;
+  --color-gold-200: #FAA63A;
+  --color-orange-650: #E47911;
+  --color-yellow-350: #F0C14b;
+}
+
+.address-container {
+  @apply flex items-center border border-transparent rounded-sm px-2 py-2 md:py-0;
+}
+
+.address-container:hover {
+  @apply hover:border-white;
+}
+
+.item-nav-mid {
+  @apply mr-4 border border-transparent rounded-sm px-2 py-1;
+}
+
+.item-nav-mid:hover {
+  @apply hover:border-white;
+}
+
+.item-nav-inf {
+  @apply border-b-2 border-transparent py-1 px-3;
+}
+
+.item-nav-inf:hover {
+  @apply text-orange-650 border-orange-650;
+}
